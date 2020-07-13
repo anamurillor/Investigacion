@@ -14,15 +14,15 @@ Una vez que está instalado Twilio
 
 En el program.cs agregamos las dependencias correspondientes
 
-using Twilio;
-using Twilio.Rest.Api.V2010.Account;
-using Twilio.Types;
+>> using Twilio;
+>> using Twilio.Rest.Api.V2010.Account;
+>> using Twilio.Types;
 
 Tenemos que crearnos una cuenta en TWILIO y generar un numero de telefono.
 
->> Se te da un free-trial donde tienes un balance de $15.50 para probar los servicios y ahí mismo puedes acceder a un trial phone number, que lo necesitarás para implementar los SMS en el proyecto.
+>> Se te da un free-trial donde tienes un balance de $15.50 para probar los servicios y ahí mismo puedes acceder a un trial phone number, que lo necesitarás para implementar los SMS en el proyecto. (todos los pasos son continuos desde que le clickeas sign up)
 
-Ahora debemos inicializar el cliente.
+Una vez con la cuenta creada y el phone number creado, debemos inicializar el cliente.
 
 # Inicializacion del cliente
 
@@ -45,7 +45,7 @@ Esto solo debe hacerse una vez. Todas las llamadas posteriores a la API Twilio s
 
 Necesitamos un número remitente, para enviar un mensaje de texto y un número destinatario, que lo recibe. Asimismo, como un mensaje de texto.
 
-https://www.twilio.com/docs/iam/test-credentials se puede ver mas informacion de como usar los test credentials aca
+https://www.twilio.com/docs/iam/test-credentials se puede ver mas informacion de como usar los test credentials
 
 este es el telefono a mandar el SMS, pero no tenemos como probar con un # en CR con el free trial, por lo que es un dummy number
 >> var to = new PhoneNumber("+15555551234");
@@ -65,3 +65,5 @@ y para finalizar, como no podemos probar con numeros reales, haremos un print de
 >>      Console.Write("    ");
 >>      Console.Write(message.Body);
 >>      Console.ReadLine();
+
+El video del DEMO de SMS puede ser encontrado en el siguiente link https://drive.google.com/file/d/1DAvBLlV64FMgbCM9H_JXUKbAnEIFc8sA/view?usp=sharing
