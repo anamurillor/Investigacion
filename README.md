@@ -124,6 +124,9 @@ En Program.cs, utilizar código anterior haciendo las modificaciones correspondi
 Correrlo desde Visual Studio.
 Listo! Verificar que el correo haya llegado a la dirección indicada.
 
+# Video explicativo
+https://drive.google.com/file/d/1WFn6_rKscO-waut3z0-A1l62fJQUmxoV/view?usp=sharing
+
 Otras páginas de referencia:
 • https://en.wikipedia.org/wiki/SendGrid
 • https://craft.co/sendgrid
