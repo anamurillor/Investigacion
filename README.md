@@ -134,4 +134,57 @@ Otras páginas de referencia:
 • https://github.com/sendgrid/sendgrid-csharp#quick-start 
 
 
+# HTMLTOPDF
+Link: https://selectpdf.com/html-to-pdf/demo/
+
+SelectPdf Html To Pdf Converter for .NET  es un componente poderoso que permite generar documentos de pdf directamente de páginas web y código HTML en ambientes de trabajo .NET
+Este componente no tiene dependencias de terceros y no necesita que los usuarios instalen Adobe para tener la capacidad de crear documentos en PDF.
+
+Importante
+La edición para la comunidad de “Selectpf” no es una prueba de prueba gratuita para la librería comercial.
+Este es un producto gratuito con funcionalidad limitada, en caso de querer utilizar todas las funcionalidades este seria el link para una muestra de prueba http://selectpdf.com/pdf-library-for-net/
+Las siguientes caracteristicas no son parte de la versión gratuita de la comunidad, si se desean utilizar se debe de adquirir la versión completa comercial en el siguiente link : SelectPdf Library for .NET
+
+	Crear documentos en PDF de más de 5 paginas
+	Convertir solo cierta sección de la página, especificando el elemento de ID
+	Iniciar manualmente la conversión a pdf desde javascript
+	Especificar un script de JS que se ejecute antes de la conversión
+	Ocultar partes de la pagina web durante la conversión de HTML a PDF
+	Cargar y modificar documentos existentes de PDF 
+	Agregar HTML adicionales, textos,imágenes a pdf ( usando los objetos PdfHtmlElement, PdfTextElement, PdfImageElement)
+	Obtener la localización de los elementos web en el pdf
+	Especificar la acción de apertura del documento de PDF (brincar de página, correr script)
+	Modificar encabezados y pies de pagina en la paginas de los PDF
+	Permitir campos de relleno en los PDF
+	Extraer texto del PDF(PDF a convertidor de texto)
+	Modificar el tamaño del contenido en los documentos de PDF
+	Buscar por texto en el PDF
+	Convertir paginas de PDF en imágenes
+
+
+Que permite la versión de comunidad gratuita
+	Convertir documentos a pdf hasta de 5 paginas
+	Convertir cual pagina web a PDF
+	Convertir cual raw html string a PDF
+	Definir las opciones de la pagina de PDF
+	Definir propiedades del documento 
+	Definir preferencias de vista
+	Definir seguridad del pdf
+
+Como instalar.
+La forma mas sencilla de instalar SelectPdf Html to Pdf Converter es usando la instalación mediante paquete de Nuger, 
+
+Creas tu Proyecto, luego vas al Nuget Package manager y instalas uno de los siguientes paquetes:
+
+NET Framework version - AnyCPU (.NET 2.0 and .NET 4.0-4.5) - Select.HtmlToPdf: https://www.nuget.org/packages/Select.HtmlToPdf/.
+
+.NET Core version - Windows only (and .NET 4.6.1 and .NET 4.7.2) - Select.HtmlToPdf.NetCore: https://www.nuget.org/packages/Select.HtmlToPdf.NetCore/.
+
+.NET Core version with Blink rendering engine - Windows only (and .NET 4.6.1 and .NET 4.7.2)- Select.HtmlToPdf.NetCore.Blink: https://www.nuget.org/packages/Select.HtmlToPdf.NetCore.Blink/.
+
+Note: The .NET Core version is for .NET Core 2.0 or above through .NET Standard 2.0. Currently it requires a Windows system to run. It does not work on Linux or Mac or Xamarin.
+Note 2: Blink rendering engine only works with .NET Core version and with .NET Framework starting with 4.6.1. Blink rendering engine was introduced with SelectPdf v19.1.
+
+Video basado en la explicacion: https://www.youtube.com/watch?v=_ycJtgKDZEY
+
 
