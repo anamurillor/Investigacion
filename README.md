@@ -66,4 +66,4 @@ y para finalizar, como no podemos probar con numeros reales, haremos un print de
 >>      Console.Write(message.Body);
 >>      Console.ReadLine();
 
-El video del DEMO de SMS puede ser encontrado en el siguiente link https://drive.google.com/file/d/1DAvBLlV64FMgbCM9H_JXUKbAnEIFc8sA/view?usp=sharing
+El video del DEMO de SMS puede ser encontrado en el siguiente link https://drive.google.com/file/d/1DAvBLlV64FMgbCM9H_JXUKbAnEIFc8sA/view?usp=sharing o directamente en el repositorio como un MP4
