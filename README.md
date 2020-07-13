@@ -15,7 +15,9 @@ Una vez que está instalado Twilio
 En el program.cs agregamos las dependencias correspondientes
 
 >> using Twilio
+
 >> using Twilio.Rest.Api.V2010.Account
+
 >> using Twilio.Types
 
 Tenemos que crearnos una cuenta en TWILIO y generar un numero de telefono.
